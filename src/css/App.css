@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/*Whole page*/
+.page {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  position: fixed;
+  /* Height and width fallback for older browsers. */
+  height: 100%;
+  width: 100%;
+  /* Set the height to match that of the viewport. */
+  height: 100vh;
+  /* Set the width to match that of the viewport. */
+  width: 100vw;
+  /* Remove any browser-default margins. */
+  margin: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-image: url(https://github.com/Dev-Daljeet/Screenshots/blob/master/ReactWeatherApp/bg.jpg?raw=true);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  overflow: auto;
+}
+
+/*Header*/
+.header-style {
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Card Section*/
+.card {
+  width: 220px;
+  opacity: 0.8;
+}
+
+/*Button*/
+.btn {
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover, .btn:active {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+/*Row*/
+.row {
+  justify-content: center;
+  margin: 15px 0;
+}
